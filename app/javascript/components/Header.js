@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = () => {
-  <Header>
+const Header = () => (
+  <header>
     <h1>Event Manager</h1>
-  </Header>
-}
+  </header>
+);
 
 export default Header;
