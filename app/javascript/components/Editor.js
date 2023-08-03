@@ -27,12 +27,12 @@ const Editor = () => {
 
   return (
     <>
-      <Header/>
+      <Header />
       {isError && <p>Something went wrong. Check the console.</p>}
 
       {isLoading ? <p>Loading...</p> : <EventList events={events} />}
     </>
   );
-}
+};
 
 export default Editor;

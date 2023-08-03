@@ -25,6 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
   root.render(
     <StrictMode>
       <App />
-    </StrictMode>
+    </StrictMode>,
   );
 });
